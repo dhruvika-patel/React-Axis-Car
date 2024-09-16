@@ -1,0 +1,84 @@
+/* services section  */
+.main-services {
+    background-image: linear-gradient(242deg, black 0.41%, rgba(29, 29, 29, 0.57)41.60%, rgba(58, 58, 58, 0.5)55.54%, rgba(115, 115, 115, 0)96.28%),
+      url('/public/images/carvidio2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 127px 0 148px;
+    transform: rotatey(180deg);
+  }
+  
+  .services-inner {
+    padding: 146px 0 186px;
+    transform: rotatey(180deg);
+  }
+  
+  .services-button {
+    padding-top: 289px;
+  }
+  
+  .services-inner h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    text-align: left;
+    color: var(--font-big);
+    margin-bottom: 24px;
+  
+  }
+
+  .services-inner p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--font-big);
+  }
+
+
+  /* media screen */
+
+  /* Desktop */
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+.services-inner {
+  padding: 146px 20px 186px;
+  }
+  
+  .services-inner h2 {
+    font-size: 40px;
+  }
+
+  .services-inner p {
+    font-size: 16px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .services-inner {
+    padding: 100px 20px 120px;
+  }
+  .services-inner h2 {
+    font-size: 32px;
+  }
+  .services-inner p {
+    font-size: 14px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .services-inner {
+    padding: 60px 20px 80px;
+  }
+  .services-inner h2 {
+    font-size: 24px;
+  }
+  .services-inner p {
+    font-size: 12px;
+  }
+  .services-button {
+    padding-top: 144px;
+}
+}

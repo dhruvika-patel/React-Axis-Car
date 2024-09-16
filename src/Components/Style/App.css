@@ -1,0 +1,6 @@
+.facility-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 66px 0;
+    justify-items: center;
+}

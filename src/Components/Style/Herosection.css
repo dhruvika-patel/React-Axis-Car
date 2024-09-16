@@ -1,0 +1,83 @@
+/* hero section css */
+.hero-main {
+  background-image: url('/public/images/viid.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.heading h1 {
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 69px;
+  text-align: center;
+  color: var(--font-mini);
+  padding: 59px 0 543px 0;
+}
+
+.herobutton {
+  padding-bottom: 164px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.heading span {
+  color: var(--icon-color);
+}
+
+/* media query */
+/* Desktop screen */
+@media (min-width: 1200px) {
+  .hero-main {
+    height: 100vh;
+  }
+
+  .heading h1 {
+    font-size: 80px;
+    padding: 100px 0 250px 0;
+  }
+
+  .herobutton {
+    padding-bottom: 200px;
+  }
+}
+
+/* Laptop screen */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-main {
+    height: 80vh;
+  }
+
+  .heading h1 {
+    font-size: 60px;
+    padding: 180px 0 276px 0;
+  }
+
+  .herobutton {
+    padding-bottom: 150px;
+  }
+}
+
+/* Mobile screen */
+@media (max-width: 767px) {
+  .hero-main {
+    height: 60vh;
+  }
+
+  .heading h1 {
+    font-size: 40px;
+    padding: 40px 0 103px 0;
+  }
+
+  .herobutton {
+    padding-bottom: 100px;
+  }
+  
+  .scroll-text {
+    margin-top: 70px;
+  }
+
+}

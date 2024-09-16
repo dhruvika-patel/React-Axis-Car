@@ -1,0 +1,28 @@
+/* hero section css */
+.hero-main {
+    background: url(../public/images/viid.gif);
+    background-size: cover;
+  }
+  
+  .heading h1 {
+    font-size: 64px;
+    font-weight: 200;
+    line-height: 69px;
+    text-align: center;
+    color: var(--font-mini);
+    padding: 59px 0 579px;
+  }
+
+  .herobutton {
+    display: ruby-text;
+    padding-bottom: 164px;
+  }
+
+  .heading span {
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 69px;
+    text-align: center;
+    color: var(--icon-color);
+  }
+  

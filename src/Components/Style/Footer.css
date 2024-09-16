@@ -1,0 +1,152 @@
+/* footer section  */
+.icon svg {
+  fill: var(--icon-color);
+  font-size: 22px;
+}
+
+.inner-footer {
+  color: var(--font-big);
+}
+
+.inner-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-data {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 126px;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 100%;
+  max-width: 146px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-data {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-detail {
+  display: flex;
+  justify-content: space-between;
+  margin: 82px 0 -14px;
+}
+
+.inner-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 174px;
+}
+
+.inner-fdata h3 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 38.4px;
+  text-align: right;
+  color: var(--font-big);
+}
+
+.footer-detail p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.6px;
+  text-align: left;
+  color: var(--font-mini);
+}
+
+/* media screen  */
+
+@media(max-width: 1200px) {
+  .footer-detail {
+    padding: 0 20px;
+  }
+  .inner-fdata h3 {
+    font-size: 36px;
+}
+}
+
+/* Tablet screen (medium screens) */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  .inner-footer {
+    flex-direction: column;
+  }
+
+  .icon {
+    margin-bottom: 15px;
+  }
+
+  .nav-data ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-data {
+    margin: 15px 0;
+  }
+
+  .footer-detail {
+    margin: 15px 0;
+  }
+
+  .inner-detail,
+  .inner-fdata {
+    margin: 8px 0;
+  }
+  .inner-fdata h3 {
+    font-size: 26px;
+    text-align: center;
+  }
+  li {
+    margin-bottom: 16px;
+}
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .container {
+    padding: 5px;
+  }
+
+  .inner-footer {
+    flex-direction: column;
+  }
+
+  .icon {
+    margin-bottom: 10px;
+  }
+
+  .nav-data ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-data {
+    margin: 10px 0;
+  }
+
+  .footer-detail {
+    margin: 10px 0;
+  }
+}
